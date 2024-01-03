@@ -1,4 +1,5 @@
 var userName = prompt("Enter Your User Name: ");
+//Valdiating Username is Characters Only
 while (!/^[A-Za-z]*$/.test(userName)) {
   alert("This Wasn't a Valid User Name");
   userName = prompt("Please, Re-Enter Your User Name:");
