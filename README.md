@@ -7,5 +7,10 @@
 * Counting Vowels
 * Clock
 ## 3- Third Lab
+# Part One
 * Login Attempt
 * Calculator
+# Part Two
+* Summation & Average
+* Phone Book
+* Shape Area (Bonus)
