@@ -1,0 +1,27 @@
+* The function accepts following parameters:
+ *  1. INTEGER s
+ *  2. INTEGER t
+ *  3. INTEGER a
+ *  4. INTEGER b
+ *  5. INTEGER_ARRAY apples
+ *  6. INTEGER_ARRAY oranges
+ */
+
+function countApplesAndOranges(s, t, a, b, apples, oranges) {
+    var newApples=[]; // Holding the locations of the fallen apples
+ for(var apple of apples)
+ {let distance=apple+a;
+  if(distance >=s && distance <=t)
+  newApples.push(apple);}
+
+    var newOranges=[]; // Holding the locations of the fallen Orangres
+ for(var orange of oranges)
+ {let distance=orange+b;
+  if(distance >=s && distance <=t)
+  newOranges.push(orange);}
+
+    var applesNumber=newApples.length;
+    var orangesNumber=newOranges.length;
+    console.log(applesNumber);
+    console.log(orangesNumber); 
+}
