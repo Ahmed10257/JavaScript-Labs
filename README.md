@@ -37,3 +37,7 @@ Applying OOP using
 - Class Syntax
 - Objects Linking to Other Objects (OLOO)
 - Factory Function
+
+## 5- Fifth Lab
+
+- Composition & Inheritance
