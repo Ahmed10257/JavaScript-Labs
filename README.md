@@ -41,3 +41,7 @@ Applying OOP using
 ## 5- Fifth Lab
 
 - Composition & Inheritance
+- Report
+
+* inheritance through COnstructor Functions
+* Abstract Class vs Interface
