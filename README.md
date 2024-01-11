@@ -42,6 +42,5 @@ Applying OOP using
 
 - Composition & Inheritance
 - Report
-
-* inheritance through COnstructor Functions
-* Abstract Class vs Interface
+  * inheritance through COnstructor Functions
+  * Abstract Class vs Interface
