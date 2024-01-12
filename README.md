@@ -42,5 +42,9 @@ Applying OOP using
 
 - Composition & Inheritance
 - Report
-  * inheritance through COnstructor Functions
-  * Abstract Class vs Interface
+  - inheritance through COnstructor Functions
+  - Abstract Class vs Interface
+
+## 6- Sixth Lab
+
+- Cont. Inheritance + Static Props. & Methods
