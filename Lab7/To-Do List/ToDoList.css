@@ -1,0 +1,33 @@
+body {
+  background-color: antiquewhite;
+}
+#Div {
+  background-color: white;
+  margin: auto;
+  padding: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  text-align: center;
+  width: 25%;
+}
+#tsk {
+  border-style: solid;
+  margin: 2px;
+  text-align: left;
+}
+#red {
+  background-color: red;
+  align-self: center;
+  width: 15%;
+  padding: 1%;
+}
+
+#green {
+  background-color: green;
+  align-self: center;
+  width: 15%;
+  padding: 1%;
+}
