@@ -48,3 +48,8 @@ Applying OOP using
 ## 6- Sixth Lab
 
 - Cont. Inheritance + Static Props. & Methods
+
+## 7- Seventh Lab
+
+- Login Page
+- To-Do List
