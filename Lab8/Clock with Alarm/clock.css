@@ -1,0 +1,90 @@
+.container {
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clockContainer {
+  height: 300px;
+  width: 1000px;
+  background-color: rgb(112, 198, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.clock {
+  height: 150px;
+  width: 750px;
+  background-color: rgb(183, 183, 183);
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  border-width: 5px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.time {
+  font-size: 60px;
+}
+.dayContainer {
+  width: 750px;
+  justify-content: space-between;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: space-between;
+}
+
+.day {
+  font-size: 30px;
+  font-weight: bold;
+  color: #dddddd;
+}
+.alarmContainer {
+  height: 300px;
+  width: 1000px;
+  background-color: rgb(221, 171, 95);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.alarm {
+  height: 30px;
+  border-radius: 5px;
+}
+.alContain {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 20px;
+}

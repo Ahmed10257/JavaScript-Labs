@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock&Alarm</title>
+    <link rel="stylesheet" href="clock.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="clockContainer">
+        <div class="dayContainer">
+          <span class="day">SUN</span>
+          <span class="day">MON</span>
+          <span class="day">TUE</span>
+          <span class="day">WEN</span>
+          <span class="day">THR</span>
+          <span class="day">FRI</span>
+          <span class="day">SAT</span>
+        </div>
+        <div class="clock">
+          <span class="time hours">H</span>
+          <span class="time delimeter">:</span>
+          <span class="time minutes">M</span>
+          <span class="time delimter">:</span>
+          <span class="time seconds">S</span>
+        </div>
+      </div>
+      <div class="alarmContainer">
+        <p style="font-size: 30px">Set Alarm After</p>
+        <div class="alContain">
+          <div class="Box">
+            <label for="alarmHour">HH</label>
+            <input type="text" class="alarm alarmHour" />
+          </div>
+          <div class="Box">
+            <label for="alarmMin">MM</label>
+            <input type="text" class="alarm alarmMin" />
+          </div>
+          <div class="Box">
+            <label for="alarmSec">SS</label>
+            <input type="text" class="alarm alarmSec" />
+          </div>
+        </div>
+        <div class="Buttons">
+          <button class="btn set">Set Alarm</button>
+          <button class="btn clear">Clear</button>
+        </div>
+      </div>
+    </div>
+    <script src="clock.js"></script>
+  </body>
+</html>
