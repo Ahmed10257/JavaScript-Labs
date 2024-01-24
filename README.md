@@ -53,3 +53,8 @@ Applying OOP using
 
 - Login Page
 - To-Do List
+
+## 8- Eghith Lab
+
+- Clock & Alarm
+- Image Slider
