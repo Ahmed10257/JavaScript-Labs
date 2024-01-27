@@ -10,7 +10,7 @@ Button.addEventListener("click", emailValidation);
 Button.addEventListener("click", passwordValidation);
 
 function validation() {
-  if (Email.value === "admin@admin.com" && Password.value === "Aa@123456")
+  if (Email.value === "admin@admin.com" && Password.value === "A123456@a")
     para.textContent = "Welcome";
   else para.textContent = "Not Regestired";
 }
